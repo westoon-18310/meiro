@@ -1676,13 +1676,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1325425580750384928, guid: b8ca99c7226285a4b9c9c625cac49fc3, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 60
+    - target: {fileID: 341789956, guid: b8ca99c7226285a4b9c9c625cac49fc3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1325425580750384928, guid: b8ca99c7226285a4b9c9c625cac49fc3, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -9.5
+    - target: {fileID: 341789956, guid: b8ca99c7226285a4b9c9c625cac49fc3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 341789958, guid: b8ca99c7226285a4b9c9c625cac49fc3, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 64de51035481b6b4d85b509802c836a0, type: 2}
+    - target: {fileID: 1033617268132792073, guid: b8ca99c7226285a4b9c9c625cac49fc3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.001
       objectReference: {fileID: 0}
     - target: {fileID: 1325425582155928924, guid: b8ca99c7226285a4b9c9c625cac49fc3, type: 3}
       propertyPath: m_Name
@@ -1732,13 +1740,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2474459567423571955, guid: b8ca99c7226285a4b9c9c625cac49fc3, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b8ca99c7226285a4b9c9c625cac49fc3, type: 3}
---- !u!4 &1120454882 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1325425581977305848, guid: b8ca99c7226285a4b9c9c625cac49fc3, type: 3}
-  m_PrefabInstance: {fileID: 1120454881}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1192527419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1934,6 +1938,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+<<<<<<< Updated upstream
 --- !u!1 &1341528597
 GameObject:
   m_ObjectHideFlags: 0
@@ -2031,6 +2036,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341528597}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1379088874
 GameObject:
   m_ObjectHideFlags: 0
@@ -2527,7 +2534,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1669133832}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+<<<<<<< Updated upstream
   m_LocalPosition: {x: 155, y: 4.81, z: 95}
+=======
+  m_LocalPosition: {x: 695.5, y: 4.81, z: -29.2}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
