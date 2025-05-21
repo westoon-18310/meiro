@@ -32,6 +32,7 @@ public class time : MonoBehaviour
         if (f_Goal == 0)  // ゴールに到達していない場合だけ時間を加算する 
         {
             elapsedTime += Time.deltaTime; 
+            //Debug.Log(elapsedTime);
             // 経過時間を表示するために，経過時間を秒にしたストリングを作成する． 
             TextTime.text = string.Format("Time :  {0:f2} sec", elapsedTime);  
             OperationText.text = "Up:Forward Down:Back Right/Left:Rotate";
