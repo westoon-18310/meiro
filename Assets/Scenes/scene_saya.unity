@@ -482,6 +482,7 @@ GameObject:
   - component: {fileID: 2010880444}
   - component: {fileID: 2010880449}
   - component: {fileID: 2010880450}
+  - component: {fileID: 2010880451}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -611,6 +612,19 @@ MonoBehaviour:
   TextTime: {fileID: 4737033970820266202}
   GoalMesseage: {fileID: 4737033970860035464}
   OperationText: {fileID: 0}
+  GameOverText: {fileID: 0}
+--- !u!114 &2010880451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010880443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebcc2f62845d1174caaf5fb29a27ca2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3881223215886469
 GameObject:
   m_ObjectHideFlags: 0
