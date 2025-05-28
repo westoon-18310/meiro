@@ -26,8 +26,8 @@ public class npc : MonoBehaviour
     }
     // Update is called once per frame
     void Update()
-    {
-        if(start == 1){ 
+    {   
+        if(start == 1 && time.gameover == 0){ 
             //プレイヤーが範囲内ならストーカーなり
             if(Player.transform.position.x - transform.position.x < range && Player.transform.position.x - transform.position.x >= 0.0){
                 transform.position -= transform.right * vel; 
