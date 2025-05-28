@@ -4,20 +4,27 @@ using UnityEngine;
 
 public class GetItem : MonoBehaviour
 {
-    int get_coin;
+    public static int get_coin;
+    public static GameObject goal;
+    
     // Start is called before the first frame update
     void Start()
     {
         get_coin = 0;
+        goal = GameObject.Find("ƒS[ƒ‹");
+        goal.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (get_coin > 9)
+        {
+            goal.SetActive(true);
+        }
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Item"))
         {
