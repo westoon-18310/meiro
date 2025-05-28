@@ -29,7 +29,7 @@ public class my_life : MonoBehaviour
     // 衝突を判定する処理を追加する 
     void OnCollisionEnter(Collision other)  // 衝突を判定する関数を呼ぶ 
     { 
-        if (other.gameObject.name == "NPC")  // 衝突した物体が「NPC」なら（※） 
+        if (other.gameObject.name == "NPC" && life > 0)  // 衝突した物体が「NPC」なら（※） 
         { 
             lifeArray[life - 1].SetActive(false);
             life -= 1;  // 敵に衝突したら残機減少
