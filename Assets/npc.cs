@@ -17,7 +17,7 @@ public class npc : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        vel = 0.04F;
+        vel = 0.06F;
         Player = GameObject.Find ("プレイヤー");
         start = 0;
         freeze_time = 0.0F;
