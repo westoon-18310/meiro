@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;  // この２行を追加する． 
 using TMPro;       // この２行を追加する． 
+using UnityEngine.SceneManagement;
  
 public class time : MonoBehaviour
 { 
@@ -61,7 +62,7 @@ public class time : MonoBehaviour
         if (other.gameObject.name == "ゴール")  // 衝突した物体が「ゴール」なら（※） 
         { 
             f_Goal = 1;  // 衝突フラグを上げる 
-            this.transform.position = targetPosition;
+            SceneManager.LoadScene("meiro_1"); 
         }
     }
 } 
