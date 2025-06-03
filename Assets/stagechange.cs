@@ -20,7 +20,7 @@ public class stagechange : MonoBehaviour
     {
         if (other.gameObject.name == "プレイヤー")
         {
-            isTouch = 1;
+            f_goal = 1;
         }
     }
 }
